@@ -1,0 +1,27 @@
+/* Hide Smartbear text in the topbar */
+.swagger-ui .topbar-wrapper img + span,
+.swagger-ui .topbar .download-url-wrapper {
+    display: none !important;
+}
+
+.swagger-ui .topbar-wrapper::after {
+    content: "Job Tracker API";
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom footer */
+body::after {
+    content: "Developed by Lokpavan P";
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
