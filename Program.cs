@@ -143,7 +143,7 @@ using (var scope = app.Services.CreateScope())
 // ── Middleware Pipeline ────────────────────────────────────────────────────────
 //app.UseMiddleware<GlobalExceptionMiddleware>();
 
-if (app.Environment.IsDevelopment())
+
 {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
