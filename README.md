@@ -2,6 +2,8 @@
 
 A production-ready REST API built with **ASP.NET Core 8**, **Entity Framework Core**, and **SQLite** for tracking job applications, companies, and interview rounds.
 
+The project is live here: https://job-application-tracker-api-b9t2.onrender.com/index.html
+
 ---
 
 ## 🏗️ Architecture
